@@ -1,0 +1,49 @@
+[
+  {
+    "id": "don-quijote",
+    "title": "Don Quijote de la Mancha",
+    "author": "Miguel de Cervantes",
+    "subtitle": "Capítulo primero",
+    "file": "/books/don-quijote.pdf",
+    "pages": 8,
+    "tags": [
+      "Clásico",
+      "Novela"
+    ],
+    "accent": "#7c3b32",
+    "addedAt": 1735689600000,
+    "kind": "sample",
+    "category": "libros"
+  },
+  {
+    "id": "rimas",
+    "title": "Rimas",
+    "author": "Gustavo Adolfo Bécquer",
+    "subtitle": "Selección",
+    "file": "/books/rimas.pdf",
+    "pages": 12,
+    "tags": [
+      "Poesía",
+      "Clásico"
+    ],
+    "accent": "#2c5546",
+    "addedAt": 1738368000000,
+    "kind": "sample",
+    "category": "libros"
+  },
+  {
+    "id": "lecty-guia",
+    "title": "Guía de Lecty",
+    "author": "Equipo Lecty",
+    "subtitle": "Manual de bolsillo",
+    "file": "/books/lecty-guia.pdf",
+    "pages": 6,
+    "tags": [
+      "Manual"
+    ],
+    "accent": "#33485c",
+    "addedAt": 1740787200000,
+    "kind": "sample",
+    "category": "documentos"
+  }
+]

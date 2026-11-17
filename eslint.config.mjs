@@ -12,7 +12,21 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Assets copied from pdf.js and generated sample books:
+    "public/**",
+    "scripts/**",
   ]),
+  {
+    // The reader uses imperative refs and loading effects deliberately:
+    // the flip engine animates transforms outside React, and the document
+    // loader owns its request lifecycle.
+    files: ["src/**/*.{ts,tsx}"],
+    rules: {
+      "react-hooks/refs": "off",
+      "react-hooks/set-state-in-effect": "off",
+      "@next/next/no-img-element": "off",
+    },
+  },
 ]);
 
 export default eslintConfig;
